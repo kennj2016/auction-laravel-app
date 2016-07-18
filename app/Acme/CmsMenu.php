@@ -163,6 +163,7 @@ class CmsMenu
                         $menu_icon .= $arrow;
                     }
                 } else {
+                    $linkClass = 'menu__link';
                     if ($row->icon_font) {
                         $menu_icon = '<i class="' . $row->icon_font . '"></i>' . $menu_icon;
                     }

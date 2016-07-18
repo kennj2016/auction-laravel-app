@@ -30,7 +30,7 @@ class AuthController extends BaseFrontController
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(Request $request)
     {
         parent::__construct();
 
@@ -41,9 +41,9 @@ class AuthController extends BaseFrontController
          *
          * @var string
          */
-        $this->redirectPath = $this->_getHomepageLink();
+        $this->redirectPath = $request->header('referer');
 
-        $this->redirectToLoginPage = '/' . $this->currentLanguageCode . '/auth/login';
+        $this->redirectToLoginPage = '/auth/login';
 
         $this->middleware('guest', ['except' => ['getLogout']]);
     }

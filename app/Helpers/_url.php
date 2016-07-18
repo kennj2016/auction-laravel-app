@@ -7,9 +7,9 @@ if (!function_exists('_getPageLink')) {
             $page = $page->slug;
         }
 
-        if ($currentLanguageCode) {
-            return '/' . $currentLanguageCode . '/' . $page;
-        }
+        // if ($currentLanguageCode) {
+        //     return '/' . $currentLanguageCode . '/' . $page;
+        // }
 
         return '/' . $page;
     }
@@ -22,9 +22,9 @@ if (!function_exists('_getPostLink')) {
             $post = $post->slug;
         }
 
-        if ($currentLanguageCode) {
-            return '/' . $currentLanguageCode . '/' . trans('url.post') . '/' . $post;
-        }
+        // if ($currentLanguageCode) {
+        //     return '/' . $currentLanguageCode . '/' . trans('url.post') . '/' . $post;
+        // }
 
         return '/' . trans('url.post') . '/' . $post;
     }
@@ -37,9 +37,9 @@ if (!function_exists('_getProductLink')) {
             $product = $product->slug;
         }
 
-        if ($currentLanguageCode) {
-            return '/' . $currentLanguageCode . '/' . trans('url.product') . '/' . $product;
-        }
+        // if ($currentLanguageCode) {
+        //     return '/' . $currentLanguageCode . '/' . trans('url.product') . '/' . $product;
+        // }
 
         return '/' . trans('url.product') . '/' . $product;
     }
@@ -52,9 +52,9 @@ if (!function_exists('_getCategoryLink')) {
             $category = $category->slug;
         }
 
-        if ($currentLanguageCode) {
-            return '/' . $currentLanguageCode . '/' . trans('url.category') . '/' . $category;
-        }
+        // if ($currentLanguageCode) {
+        //     return '/' . $currentLanguageCode . '/' . trans('url.category') . '/' . $category;
+        // }
 
         return '/' . trans('url.category') . '/' . $category;
     }
@@ -67,9 +67,9 @@ if (!function_exists('_getProductCategoryLink')) {
             $category = $category->slug;
         }
 
-        if ($currentLanguageCode) {
-            return '/' . $currentLanguageCode . '/' . trans('url.productCategory') . '/' . $category;
-        }
+        // if ($currentLanguageCode) {
+        //     return '/' . $currentLanguageCode . '/' . trans('url.productCategory') . '/' . $category;
+        // }
 
         return '/' . trans('url.productCategory') . '/' . $category;
     }
@@ -112,9 +112,9 @@ if (!function_exists('_getCategoryLinkWithParentSlugs')) {
     function _getCategoryLinkWithParentSlugs($categoryId, $currentLanguageCode = null)
     {
         $currentLanguageId = \App\Models\Language::getBy(['language_code' => $currentLanguageCode], null, false, 0, ['id']);
-        if ($currentLanguageCode) {
-            $currentLanguageCode = $currentLanguageCode . '/';
-        }
+        // if ($currentLanguageCode) {
+        //     $currentLanguageCode = $currentLanguageCode . '/';
+        // }
         return '/' . $currentLanguageCode . trans('url.category') . '/' . _getCategorySlugs('category', $categoryId, $currentLanguageId->id);
     }
 }
@@ -123,9 +123,9 @@ if (!function_exists('_getProductCategoryLinkWithParentSlugs')) {
     function _getProductCategoryLinkWithParentSlugs($categoryId, $currentLanguageCode = null)
     {
         $currentLanguageId = \App\Models\Language::getBy(['language_code' => $currentLanguageCode], null, false, 0, ['id']);
-        if ($currentLanguageCode) {
-            $currentLanguageCode = $currentLanguageCode . '/';
-        }
+        // if ($currentLanguageCode) {
+        //     $currentLanguageCode = $currentLanguageCode . '/';
+        // }
         return '/' . $currentLanguageCode . trans('url.productCategory') . '/' . _getCategorySlugs('productCategory', $categoryId, $currentLanguageId->id);
     }
 }

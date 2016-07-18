@@ -22,8 +22,10 @@ class PageController extends BaseFrontController
         return redirect()->to($this->currentLanguage->language_code . '/' . $item->slug);
     }
 
-    public function _handle(Request $request, Page $object, PageMeta $objectMeta, $slug)
+    public function _handle(Request $request, Page $object, PageMeta $objectMeta, $slug = false)
     {
+        if(!$slug)
+            $slug = 'homepage';
         $item = $object->getBySlug($slug, $this->currentLanguageId);
 
         if (!$item) {
@@ -70,10 +72,19 @@ class PageController extends BaseFrontController
         return $this->_viewFront('page-templates.homepage', $this->dis);
     }
 
+    /* Template Name: Price*/
+    private function _page_Price(Page $object)
+    {
+        $this->_setBodyClass($this->bodyClass . ' page-price');
+
+        return $this->_viewFront('page-templates.price', $this->dis);
+    }
+
     /* Template Name: Contact Us*/
     private function _page_ContactUs(Page $object)
     {
         $this->_setBodyClass($this->bodyClass . ' page-contact');
         return $this->_viewFront('page-templates.contact-us', $this->dis);
     }
+
 }

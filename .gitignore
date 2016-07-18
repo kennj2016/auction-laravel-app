@@ -1,8 +1,5 @@
 /node_modules
-/bower_components
-.idea
-Homestead.yaml
-Homestead.json
-.env
-vendor
+/.env
 /vendor
+/logs
+/composer.lock

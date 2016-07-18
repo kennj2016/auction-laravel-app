@@ -1,0 +1,559 @@
+.coupons-grids .title h3 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #bb8f45;
+    margin-top: 0px;
+}
+.btn-flat {
+    border-radius: 0px;
+}
+.price-content {
+    text-align: center;
+    padding: 10px;
+    background: #a5e2d4;
+}
+
+p.token {
+    font-size: 60px;
+    display: inline-block;
+    vertical-align: top;
+    left: 50px;
+}
+
+.price-item {
+    padding: 30px 0
+}
+
+.price-item .panel {
+    margin-top: 60px;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.price-item .panel .panel-heading {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    min-height: 75px;
+    border-bottom: none;
+    background: #a5e2d4;
+}
+
+.price-item .panel .panel-body {
+    background: #1cad8d;
+    padding: 0
+}
+
+.price-item .panel .panel-body h3 {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.2;
+    color: #fff
+}
+
+.price-item .panel .panel-body .list-unstyled {
+    margin-bottom: 0
+}
+
+.price-item .panel .panel-body .list-unstyled li {
+    padding: 5px 15px
+}
+
+.price-item .panel .panel-body .list-unstyled li:nth-child(even) {
+    background: #F5F5F5
+}
+
+.price-item .panel .panel-body .list-unstyled li:nth-child(odd) {
+    background: #fff
+}
+
+.price-item .panel .panel-body .list-unstyled li:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.price-item .panel .panel-body .list-unstyled li p {
+    margin: 0
+}
+
+.price-item .panel>.panel-footer {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #1cad8d;
+    border-top: none;
+}
+
+.price-item .panel.panel-success .panel-footer {
+    background: #b9eef7
+}
+
+.price-item .panel.panel-success .panel-body {
+    background: #18b1cc
+}
+
+.price-item .panel.panel-success .price-value {
+    background: #18b1cc
+}
+
+.price-item .panel.panel-success .price-period {
+    border: 1px solid #18b1cc
+}
+
+.price-item .panel.panel-success .price-period p {
+    color: #18b1cc
+}
+
+.price-item .panel.panel-info .panel-footer {
+    background: #a3e4e4
+}
+
+.price-item .panel.panel-info .panel-body {
+    background: #1f6969
+}
+
+.price-item .panel.panel-info .price-value {
+    background: #1f6969
+}
+
+.price-item .panel.panel-info .price-period {
+    border: 1px solid #1f6969
+}
+
+.price-item .panel.panel-info .price-period p {
+    color: #1f6969
+}
+
+.price-item .panel.panel-danger .panel-footer {
+    background: #ffc7b8
+}
+
+.price-item .panel.panel-danger .panel-body {
+    background: #ff8b6b
+}
+
+.price-item .panel.panel-danger .price-value {
+    background: #ff8b6b
+}
+
+.price-item .panel.panel-danger .price-period {
+    border: 1px solid #ff8b6b
+}
+
+.price-item .panel.panel-danger .price-period p {
+    color: #ff8b6b
+}
+
+.price-item .panel.panel-warning .panel-footer {
+    background: #fff0c6
+}
+
+.price-item .panel.panel-warning .panel-body {
+    background: #1cad8d
+}
+
+.price-item .panel.price-popular {
+    margin-top: 50px;
+    border: 1px solid #1cad8d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative
+}
+
+.price-item .panel.price-popular .panel-body {
+    -webkit-box-shadow: inset 0 5px 10px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 5px 10px 0 rgba(0,0,0,.1);
+    box-shadow: inset 0 5px 10px 0 rgba(0,0,0,.1)
+}
+
+.price-item .panel.price-popular .price-value {
+    background: #fff;
+    border: 5px solid #1cad8d;
+    color: #1cad8d;
+    text-shadow: 0 1px 0 #f5f5f5,0 2px 0 #f5f5f5,0 3px 0 #f5f5f5,0 4px 0 #f5f5f5,0 5px 0 #f5f5f5
+}
+
+.price-item .panel.price-popular .price-period {
+    background: #1cad8d
+}
+
+.price-item .panel.price-popular .price-period p {
+    color: #fff
+}
+
+.price-item .panel.price-popular.panel-success {
+    border: 1px solid #18b1cc
+}
+
+.price-item .panel.price-popular.panel-success .price-value {
+    border: 5px solid #18b1cc;
+    color: #18b1cc
+}
+
+.price-item .panel.price-popular.panel-success .price-period {
+    background: #18b1cc
+}
+
+.price-item .panel.price-popular.panel-info {
+    border: 1px solid #1f6969
+}
+
+.price-item .panel.price-popular.panel-info .price-value {
+    border: 5px solid #1f6969;
+    color: #1f6969
+}
+
+.price-item .panel.price-popular.panel-info .price-period {
+    background: #1f6969
+}
+
+.price-item .panel.price-popular.panel-danger {
+    border: 1px solid #ff8b6b
+}
+
+.price-item .panel.price-popular.panel-danger .price-value {
+    border: 5px solid #ff8b6b;
+    color: #ff8b6b
+}
+
+.price-item .panel.price-popular.panel-danger .price-period {
+    background: #ff8b6b
+}
+
+.price-item .hover-1 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+.price-item .hover-1 .panel-body h3,.price-item .hover-1 .panel-body .pull-left {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+.price-item .hover-1 .price-value,.price-item .hover-1 .price-period {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+.price-item .hover-1 .list-unstyled li {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    -ms-transition: all 1.2s ease-in;
+    -o-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in
+}
+
+.price-item .hover-1:hover .price-value,.price-item .hover-1:hover .price-period {
+    -webkit-transform: rotateY(-360deg);
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    -o-transform: rotateY(-360deg);
+    transform: rotateY(-360deg)
+}
+
+.price-item .hover-1:hover .price-value {
+    border-color: #158169
+}
+
+.price-item .hover-1:hover .panel-heading {
+    background: #249c82;
+}
+.price-item .hover-1:hover .panel-heading {
+    /*background: #249c82;*/
+}
+.price-item .hover-1:hover .panel-body h3,.price-item .hover-1:hover .panel-body .pull-left {
+    color: #0e5545
+}
+
+.price-item .hover-1:hover .list-unstyled li {
+    -webkit-box-shadow: inset 0 1px 0 0 #158169;
+    -moz-box-shadow: inset 0 1px 0 0 #158169;
+    box-shadow: inset 0 1px 0 0 #158169;
+    -webkit-transform: rotateX(-360deg);
+    -moz-transform: rotateX(-360deg);
+    -ms-transform: rotateX(-360deg);
+    -o-transform: rotateX(-360deg);
+    transform: rotateX(-360deg);
+    color: #fff
+}
+
+.price-item .hover-1:hover .list-unstyled li:nth-child(odd),.price-item .hover-1:hover .list-unstyled li:nth-child(even) {
+    background: rgba(0,0,0,0)
+}
+
+.price-item .hover-1.panel-success:hover .price-value {
+    border-color: #13899e
+}
+
+.price-item .hover-1.panel-success:hover .panel-body h3,.price-item .hover-1.panel-success:hover .panel-body .pull-left {
+    color: #0d6271
+}
+
+.price-item .hover-1.panel-success:hover .list-unstyled li {
+    -webkit-box-shadow: inset 0 1px 0 0 #13899e;
+    -moz-box-shadow: inset 0 1px 0 0 #13899e;
+    box-shadow: inset 0 1px 0 0 #13899e
+}
+
+.price-item .hover-1.panel-info:hover .price-value {
+    border-color: #134242
+}
+
+.price-item .hover-1.panel-info:hover .panel-body h3,.price-item .hover-1.panel-info:hover .panel-body .pull-left {
+    color: #081a1a
+}
+
+.price-item .hover-1.panel-info:hover .list-unstyled li {
+    -webkit-box-shadow: inset 0 1px 0 0 #134242;
+    -moz-box-shadow: inset 0 1px 0 0 #134242;
+    box-shadow: inset 0 1px 0 0 #134242
+}
+
+.price-item .hover-1.panel-danger:hover .price-value {
+    border-color: #ff6338
+}
+
+.price-item .hover-1.panel-danger:hover .panel-body h3,.price-item .hover-1.panel-danger:hover .panel-body .pull-left {
+    color: #ff3b05
+}
+
+.price-item .hover-1.panel-danger:hover .list-unstyled li {
+    -webkit-box-shadow: inset 0 1px 0 0 #ff6338;
+    -moz-box-shadow: inset 0 1px 0 0 #ff6338;
+    box-shadow: inset 0 1px 0 0 #ff6338
+}
+
+.price-item .hover-2 .list-unstyled li {
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in
+}
+
+.price-item .hover-2:hover .list-unstyled li {
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(0,0,0,.3);
+    -moz-box-shadow: inset 0 1px 0 0 rgba(0,0,0,.3);
+    box-shadow: inset 0 1px 0 0 rgba(0,0,0,.3);
+    color: #fff
+}
+
+.price-item .hover-2:hover .list-unstyled li:nth-child(odd),.price-item .hover-2:hover .list-unstyled li:nth-child(even) {
+    background: rgba(0,0,0,0)
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(1) {
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(2) {
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(3) {
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(4) {
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(5) {
+    -webkit-transition: all .6s ease-in;
+    -moz-transition: all .6s ease-in;
+    -ms-transition: all .6s ease-in;
+    -o-transition: all .6s ease-in;
+    transition: all .6s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(6) {
+    -webkit-transition: all .7s ease-in;
+    -moz-transition: all .7s ease-in;
+    -ms-transition: all .7s ease-in;
+    -o-transition: all .7s ease-in;
+    transition: all .7s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(7) {
+    -webkit-transition: all .8s ease-in;
+    -moz-transition: all .8s ease-in;
+    -ms-transition: all .8s ease-in;
+    -o-transition: all .8s ease-in;
+    transition: all .8s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(8) {
+    -webkit-transition: all .9s ease-in;
+    -moz-transition: all .9s ease-in;
+    -ms-transition: all .9s ease-in;
+    -o-transition: all .9s ease-in;
+    transition: all .9s ease-in
+}
+
+.price-item .hover-3 .list-unstyled li:nth-child(9) {
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in
+}
+
+.price-item .hover-3:hover .list-unstyled li {
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(0,0,0,.3);
+    -moz-box-shadow: inset 0 1px 0 0 rgba(0,0,0,.3);
+    box-shadow: inset 0 1px 0 0 rgba(0,0,0,.3);
+    color: #fff
+}
+
+.price-item .hover-3:hover .list-unstyled li:nth-child(1),.price-item .hover-3:hover .list-unstyled li:nth-child(2),.price-item .hover-3:hover .list-unstyled li:nth-child(3),.price-item .hover-3:hover .list-unstyled li:nth-child(4),.price-item .hover-3:hover .list-unstyled li:nth-child(5),.price-item .hover-3:hover .list-unstyled li:nth-child(6),.price-item .hover-3:hover .list-unstyled li:nth-child(7),.price-item .hover-3:hover .list-unstyled li:nth-child(8),.price-item .hover-3:hover .list-unstyled li:nth-child(9),.price-item .hover-3:hover .list-unstyled li:nth-child(10) {
+    background: rgba(0,0,0,0)
+}
+
+.price-value {
+    position: absolute;
+    background: #1cad8d;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    color: #fff
+}
+
+.price-value p {
+    margin: 0;
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%
+}
+
+.price-value p span {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.price-period {
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    top: -50px;
+    right: 50%;
+    margin-right: -50px;
+    border-radius: 50%;
+    border: 1px solid #1cad8d
+}
+
+.price-period p {
+    margin: 0;
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    color: #1cad8d
+}
+
+.price-period p span {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.page-head{
+	background-image: inherit;
+}
+
+.page-head-title {
+    top: -140px;
+    z-index: 999;
+    position: relative;
+}
+.page-head-title h3{
+	color: #FDA30E;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px
+}
+.map{
+	margin: 0px;
+}
+.contact .tittle{
+	margin-top: 40px;
+}
+
+.header ul li ul.dropdown-menu li {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    text-align: left;
+}
+
+.header li ul.dropdown-menu {
+    right: 0px;
+    left: inherit;
+    text-align: left;
+}
+
+.product-info p {
+    color: #848383;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.col-md-6.single-right-left .time-countdown {
+    font-size: 20px;
+    color: #906010;
+}

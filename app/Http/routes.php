@@ -102,16 +102,16 @@ $router->group(['middleware' => ['web']], function ($router) {
         $defaultLanguageCode = 'en';
     }
 
-    $currentLanguageCode = Request::segment(1, $defaultLanguageCode);
+    $currentLanguageCode = 'en';
 
     if (in_array($currentLanguageCode, $languages)) {
         $currentLanguage = \App\Models\Language::getLanguageByCode($currentLanguageCode);
 
-        $router->get('/', function () use ($currentLanguageCode) {
-            return redirect()->to($currentLanguageCode);
-        });
+        // $router->get('/', function () use ($currentLanguageCode) {
+        //     return redirect()->to($currentLanguageCode);
+        // });
 
-        $router->group(['namespace' => 'Front', 'prefix' => $currentLanguageCode], function ($router) use ($currentLanguage) {
+        $router->group(['namespace' => 'Front'], function ($router) use ($currentLanguage) {
             /*Set locale*/
             app()->setLocale($currentLanguage->default_locale);
 
@@ -123,7 +123,7 @@ $router->group(['middleware' => ['web']], function ($router) {
 
             $router->controller('global-actions', 'GlobalActionsController');
 
-            $router->get('/', 'PageController@index');
+            $router->get('/', 'PageController@_handle');
             $router->get('/{slug_1}', 'PageController@_handle');
 
             $router->get('/' . trans('url.post') . '/{slug_1}', 'PostController@_handle');

@@ -3,6 +3,7 @@
 use Acme;
 use App\Http\Controllers\BaseController;
 use App\Models;
+use App\Models\ProductCategory;
 
 abstract class BaseFrontController extends BaseController
 {
@@ -19,8 +20,17 @@ abstract class BaseFrontController extends BaseController
         }
         $this->_setMetaSEO();
 
+        $this->_SearchCategory();
+
         //To use cart functions, uncomment this line
         //$this->_getCart();
+    }
+
+    protected function _SearchCategory(){
+        $categories = ProductCategory::where('status', '=', 1)->get();
+        view()->share([
+            'SearchCategory' => $categories,
+        ]);
     }
 
     protected function _loadFrontMenu($menuActive = '', $type = 'custom-link')
@@ -31,19 +41,19 @@ abstract class BaseFrontController extends BaseController
         $menu->args = array(
             'languageId' => $this->currentLanguageId,
             'menuName' => 'main-menu',
-            'menuClass' => 'nav navbar-nav',
+            'menuClass' => 'nav navbar-nav menu__list',
             'container' => '',
             'containerClass' => '',
             'containerId' => '',
             'containerTag' => 'ul',
             'childTag' => 'li',
-            'itemHasChildrenClass' => 'menu-item-has-children',
-            'subMenuClass' => 'dropdown-menu sub-menu',
+            'itemHasChildrenClass' => 'dropdown menu__item',
+            'subMenuClass' => 'dropdown-menu multi-column columns-3',
             'menuActive' => [
                 'type' => $type,
                 'related_id' => $menuActive,
             ],
-            'activeClass' => 'active current-menu-item',
+            'activeClass' => 'active menu__item menu__item--current',
             'isAdminMenu' => false,
         );
         view()->share('CMSMenuHtml', $menu->getNavMenu());
