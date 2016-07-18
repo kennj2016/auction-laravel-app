@@ -195,14 +195,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a1.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Air Tshirt Black</a></h4>
+									<h4><a href="/product/product-sample">Air Tshirt Black</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
@@ -210,7 +210,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -221,14 +221,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a8.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">1+1 Offer</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Next Blue Blazer</a></h4>
+									<h4><a href="/product/product-sample">Next Blue Blazer</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$99.99</span>
 										<del>$109.71</del>
@@ -236,7 +236,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/01</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -247,14 +247,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a3.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Air Tshirt Black </a></h4>
+									<h4><a href="/product/product-sample">Air Tshirt Black </a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$119.99</span>
 										<del>$120.71</del>
@@ -262,7 +262,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/07/22</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -273,14 +273,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a4.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Maroon Puma Tshirt</a></h4>
+									<h4><a href="/product/product-sample">Maroon Puma Tshirt</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$79.99</span>
 										<del>$120.71</del>
@@ -288,7 +288,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -299,14 +299,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a5.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">Combo Pack</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Multicoloured TShirts</a></h4>
+									<h4><a href="/product/product-sample">Multicoloured TShirts</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$129.99</span>
 										<del>$150.71</del>
@@ -314,7 +314,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -325,14 +325,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a6.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Air Tshirt Black </a></h4>
+									<h4><a href="/product/product-sample">Air Tshirt Black </a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$129.99</span>
 										<del>$150.71</del>
@@ -340,7 +340,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -351,19 +351,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a7.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Dresses</a></h4>
+									<h4><a href="/product/product-sample">Dresses</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$129.99</span>
 										<del>$150.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -374,19 +374,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/a2.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Wedding Blazers</a></h4>
+									<h4><a href="/product/product-sample">Wedding Blazers</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$129.99</span>
 										<del>$150.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -400,14 +400,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/w1.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Wedges</a></h4>
+									<h4><a href="/product/product-sample">Wedges</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
@@ -415,7 +415,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -426,14 +426,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/w2.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Sandals</a></h4>
+									<h4><a href="/product/product-sample">Sandals</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
@@ -441,7 +441,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -452,14 +452,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/mw1.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Casual Shoes</a></h4>
+									<h4><a href="/product/product-sample">Casual Shoes</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
@@ -467,7 +467,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -478,14 +478,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/mw3.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Sport Shoes</a></h4>
+									<h4><a href="/product/product-sample">Sport Shoes</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
@@ -493,7 +493,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/08/15</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -504,14 +504,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/ep2.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Watches</a></h4>
+									<h4><a href="/product/product-sample">Watches</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
@@ -519,7 +519,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/07/28</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -530,14 +530,14 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/ep3.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Watches</a></h4>
+									<h4><a href="/product/product-sample">Watches</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
@@ -545,7 +545,7 @@ $(document).ready(function () {
 									<div class="time-left">
 										<div class="time-countdown">2016/07/25</div>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -560,19 +560,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/g1.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Dresses</a></h4>
+									<h4><a href="/product/product-sample">Dresses</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -583,19 +583,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/g2.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html"> Shirts</a></h4>
+									<h4><a href="/product/product-sample"> Shirts</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -606,19 +606,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/g3.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Shirts</a></h4>
+									<h4><a href="/product/product-sample">Shirts</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -629,19 +629,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/mw2.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">T shirts</a></h4>
+									<h4><a href="/product/product-sample">T shirts</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -652,19 +652,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/w4.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Air Tshirt Black Domyos</a></h4>
+									<h4><a href="/product/product-sample">Air Tshirt Black Domyos</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
@@ -675,19 +675,19 @@ $(document).ready(function () {
 									<img src="{{ asset('templates/images/w3.png') }}" alt="" class="pro-image-back">
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
-												<a href="single.html" class="link-product-add-cart">Quick View</a>
+												<a href="/product/product-sample" class="link-product-add-cart">Quick View</a>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										
 								</div>
 								<div class="item-info-product ">
-									<h4><a href="single.html">Hand Bags</a></h4>
+									<h4><a href="/product/product-sample">Hand Bags</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">$45.99</span>
 										<del>$69.71</del>
 									</div>
-									<a href="#" class="item_add single-item hvr-outline-out button2">Participate</a>									
+									<a href="/product/product-sample" class="item_add single-item hvr-outline-out button2">Participate</a>									
 								</div>
 							</div>
 						</div>
