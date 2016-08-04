@@ -102,6 +102,13 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label class="control-label col-md-3">Email</label>
+                            <div class="col-md-7">
+                                <input type="email" class="form-control" value="{{ $settings['email'] or '' }}" name="email"/>
+                                <span class="help-block">Shop email.</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label class="control-label col-md-3">Site keywords</label>
                             <div class="col-md-7">
                                 <input type="text" class="form-control js-tags-editor" value="{{ $settings['site_keywords'] or '' }}" name="site_keywords"/>
@@ -113,13 +120,6 @@
                             <div class="col-md-7">
                                 <textarea name="site_description" class="form-control" rows="5">{{ $settings['site_description'] or '' }}</textarea>
                                 <span class="help-block">Use for SEO.</span>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label col-md-3">Email receives feedback from clients</label>
-                            <div class="col-md-7">
-                                <input type="text" class="form-control" value="{{ $settings['email_receives_feedback'] or '' }}" name="email_receives_feedback"/>
-                                <span class="help-block">Email receives feedback from clients</span>
                             </div>
                         </div>
                         <div class="form-group">
@@ -152,10 +152,24 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3">Hot line</label>
+                            <label class="control-label col-md-3">Address</label>
+                            <div class="col-md-7">
+                                <textarea name="address" class="form-control" rows="5">{{ $settings['address'] or '' }}</textarea>
+                                <span class="help-block">Store address</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Footer Copyright</label>
+                            <div class="col-md-7">
+                                <textarea name="footer_copyright" class="form-control" rows="5">{{ $settings['footer_copyright'] or '' }}</textarea>
+                                <span class="help-block">Footer Copyright</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Phone</label>
                             <div class="col-md-7">
                                 <input type="text" class="form-control" value="{{ $settings['hot_line'] or '' }}" name="hot_line"/>
-                                <span class="help-block">Hot line.</span>
+                                <span class="help-block">Phone.</span>
                             </div>
                         </div>
                         <div class="form-group">
@@ -191,13 +205,6 @@
                             <div class="col-md-7">
                                 <input type="text" class="form-control" value="{{ $settings['pinterest'] or '' }}" name="pinterest"/>
                                 <span class="help-block">Pinterest.</span>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label col-md-3">Github</label>
-                            <div class="col-md-7">
-                                <input type="text" class="form-control" value="{{ $settings['github'] or '' }}" name="github"/>
-                                <span class="help-block">Github page.</span>
                             </div>
                         </div>
                         <div class="form-group">

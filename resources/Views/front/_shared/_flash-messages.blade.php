@@ -13,7 +13,7 @@ alertify.error('{{ $row }}')
 @endif
 @if($messages)
 @foreach($messages as $key => $row)
-alertify.success('{{ $row }}'')
+alertify.success('{{ $row }}')
 @endforeach
 @endif
 @if($infos)

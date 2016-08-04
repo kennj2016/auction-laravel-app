@@ -81,6 +81,9 @@ $router->group(['middleware' => ['web']], function ($router) {
 
         /*Comments*/
         $router->controller('comments', 'CommentController');
+
+         /*Purchase*/
+        $router->controller('purchase', 'PurchaseController');
     });
     /*
     |--------------------------------------------------------------------------
@@ -122,6 +125,9 @@ $router->group(['middleware' => ['web']], function ($router) {
             //$router->controller('cart', 'CartController');
 
             $router->controller('global-actions', 'GlobalActionsController');
+            $router->controller('subscribe', 'SubscribeController');
+            $router->controller('user', 'UserController');
+            $router->controller('charge', 'ChargeController');
 
             $router->get('/', 'PageController@_handle');
             $router->get('/{slug_1}', 'PageController@_handle');

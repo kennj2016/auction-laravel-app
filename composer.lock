@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "83ba0e7805bab3b36e41a823e7eba6ff",
-    "content-hash": "79b635de0acae5d249728fac41112cb5",
+    "hash": "93353b42a3e2350885792222e5d87b67",
+    "content-hash": "f2d907a730ba92af27c8b1a97385beee",
     "packages": [
         {
             "name": "barryvdh/elfinder-flysystem-driver",
@@ -328,16 +328,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.3.7",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "22088b04728a039bd1fc32f7e79a89a118b78698"
+                "reference": "6886d43f5babe6900c29c59640ca81401fe71c80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/22088b04728a039bd1fc32f7e79a89a118b78698",
-                "reference": "22088b04728a039bd1fc32f7e79a89a118b78698",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/6886d43f5babe6900c29c59640ca81401fe71c80",
+                "reference": "6886d43f5babe6900c29c59640ca81401fe71c80",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +386,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2016-04-26 14:08:40"
+            "time": "2016-06-22 08:03:11"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -963,6 +963,49 @@
             "time": "2015-11-04 20:07:17"
         },
         {
+            "name": "netshell/paypal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/net-shell/laravel-paypal.git",
+                "reference": "fa5009862b91d1f1cf2c7599b966bc6c961ce956"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/net-shell/laravel-paypal/zipball/fa5009862b91d1f1cf2c7599b966bc6c961ce956",
+                "reference": "fa5009862b91d1f1cf2c7599b966bc6c961ce956",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "illuminate/support": "~5.0",
+                "paypal/rest-api-sdk-php": "1.3.2",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Netshell\\Paypal": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Boyan Balkanski",
+                    "email": "balkanski@outlook.com"
+                }
+            ],
+            "description": "Laravel-Paypal is simple package help you process direct credit card payments, stored credit card payments and PayPal account payments with your Laravel 5 projects using paypal REST API SDK.",
+            "time": "2016-07-30 15:19:30"
+        },
+        {
             "name": "nikic/php-parser",
             "version": "v2.1.0",
             "source": {
@@ -1060,6 +1103,54 @@
                 "random"
             ],
             "time": "2016-03-18 20:34:03"
+        },
+        {
+            "name": "paypal/rest-api-sdk-php",
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
+                "reference": "0a32a6323c829e0e424e9f4d15e7b346c8472c08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/0a32a6323c829e0e424e9f4d15e7b346c8472c08",
+                "reference": "0a32a6323c829e0e424e9f4d15e7b346c8472c08",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PayPal": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "PayPal",
+                    "homepage": "https://github.com/paypal/rest-api-sdk-php/contributors"
+                }
+            ],
+            "description": "PayPal's PHP SDK for REST APIs",
+            "homepage": "https://github.com/paypal/rest-api-sdk-php",
+            "keywords": [
+                "payments",
+                "paypal",
+                "rest",
+                "sdk"
+            ],
+            "time": "2015-03-18 20:40:42"
         },
         {
             "name": "psr/cache",
@@ -3581,7 +3672,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "intervention/image": 20,
+        "netshell/paypal": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

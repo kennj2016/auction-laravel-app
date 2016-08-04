@@ -22,19 +22,15 @@
 	<div class="price-item">
 		<div class="row">
 		    <div class="col-md-3 col-sm-6 col-xs-12">
+		    	<form method="POST" action="{{ action('Front\ChargeController@postCheckout') }}">
+		    	<input type="hidden" name="plan" value="plan1"/>
+		    	{{ csrf_field() }}
 		        <div class="panel panel-default hover-1">
 		            <div class="panel-heading">
 		                <div class="price-value">
 		                    <p>
 		                        <span>
 		                            $5
-		                        </span>
-		                    </p>
-		                </div>
-		                <div class="price-period">
-		                    <p>
-		                        <span>
-		                            mo
 		                        </span>
 		                    </p>
 		                </div>
@@ -53,15 +49,19 @@
 		                </div>
 		            </div>
 		            <div class="panel-footer">
-		                <a class="btn btn-flat btn-lg btn-primary" href="#">
+		                <button type="submit" class="btn btn-flat btn-lg btn-primary">
 		                    <i class="fa fa-shopping-cart">
 		                    </i>
 		                    Buy package
-		                </a>
+		                </button>
 		            </div>
 		        </div>
+		        </form>
 		    </div>
 		    <div class="col-md-3 col-sm-6 col-xs-12">
+		    	<form method="POST" action="{{ action('Front\ChargeController@postCheckout') }}">
+		    	<input type="hidden" name="plan" value="plan2"/>
+		    	{{ csrf_field() }}
 		        <div class="panel panel-default hover-1">
 		            <div class="panel-heading">
 		                <div class="price-value">
@@ -71,17 +71,10 @@
 		                        </span>
 		                    </p>
 		                </div>
-		                <div class="price-period">
-		                    <p>
-		                        <span>
-		                            mo
-		                        </span>
-		                    </p>
-		                </div>
 		            </div>
 		            <div class="panel-body">
 		                <h3>
-		                    Standart
+		                    Standard
 		                </h3>
 		                <div class="price-content">
 	                        <p class="token">20</p>token
@@ -93,28 +86,25 @@
 		                </div>
 		            </div>
 		            <div class="panel-footer">
-		                <a class="btn btn-flat btn-lg btn-primary" href="#">
+		                <button type="submit" class="btn btn-flat btn-lg btn-primary">
 		                    <i class="fa fa-shopping-cart">
 		                    </i>
 		                    Buy package
-		                </a>
+		                </button>
 		            </div>
 		        </div>
+		        </form>
 		    </div>
 		    <div class="col-md-3 col-sm-6 col-xs-12">
+		    	<form method="POST" action="{{ action('Front\ChargeController@postCheckout') }}">
+		    	<input type="hidden" name="plan" value="plan3"/>
+		    	{{ csrf_field() }}
 		        <div class="panel panel-default hover-1">
 		            <div class="panel-heading">
 		                <div class="price-value">
 		                    <p>
 		                        <span>
 		                            $15
-		                        </span>
-		                    </p>
-		                </div>
-		                <div class="price-period">
-		                    <p>
-		                        <span>
-		                            mo
 		                        </span>
 		                    </p>
 		                </div>
@@ -133,28 +123,25 @@
 		                </div>
 		            </div>
 		            <div class="panel-footer">
-		                <a class="btn btn-flat btn-lg btn-primary" href="#">
+		                <button type="submit" class="btn btn-flat btn-lg btn-primary">
 		                    <i class="fa fa-shopping-cart">
 		                    </i>
 		                    Buy package
-		                </a>
+		                </button>
 		            </div>
 		        </div>
+		        </form>
 		    </div>
 		    <div class="col-md-3 col-sm-6 col-xs-12">
+		    	<form method="POST" action="{{ action('Front\ChargeController@postCheckout') }}">
+		    	<input type="hidden" name="plan" value="plan4"/>
+		    	{{ csrf_field() }}
 		        <div class="panel panel-default hover-1">
 		            <div class="panel-heading">
 		                <div class="price-value">
 		                    <p>
 		                        <span>
 		                            $25
-		                        </span>
-		                    </p>
-		                </div>
-		                <div class="price-period">
-		                    <p>
-		                        <span>
-		                            mo
 		                        </span>
 		                    </p>
 		                </div>
@@ -173,13 +160,14 @@
 		                </div>
 		            </div>
 		            <div class="panel-footer">
-		                <a class="btn btn-flat btn-lg btn-primary" href="#">
+		                <button type="submit" class="btn btn-flat btn-lg btn-primary">
 		                    <i class="fa fa-shopping-cart">
 		                    </i>
 		                    Buy package
-		                </a>
+		                </button>
 		            </div>
 		        </div>
+		        </form>
 		    </div>
 		</div>
 	</div>

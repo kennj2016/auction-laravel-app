@@ -68,6 +68,7 @@ class PageController extends BaseFrontController
     private function _page_Homepage(Page $object)
     {
         $this->_setBodyClass($this->bodyClass . ' page-homepage');
+        $this->dis['aaaaa'] = 'xxx';
 
         return $this->_viewFront('page-templates.homepage', $this->dis);
     }

@@ -8,7 +8,6 @@
 <title>{{ $pageTitle or '' }} | {{ $CMSSettings['site_title'] or '' }}</title>
 <meta name="description" content="{{ $metaSEO['description'] or '' }}"/>
 <meta name="keywords" content="{{ $metaSEO['keywords'] or '' }}"/>
-<meta content="duyphan.developer@gmail.com | https://github.com/duyphan2502" name="author"/>
 
 <!-- Google+ -->
 <meta itemprop="name" content="{{ $pageTitle or '' }} | {{ $CMSSettings['site_title'] or '' }}">
@@ -21,7 +20,6 @@
 <meta name="twitter:site" content="{{ Request::url() }}">
 <meta name="twitter:title" content="{{ $pageTitle or '' }} | {{ $CMSSettings['site_title'] or '' }}">
 <meta name="twitter:description" content="{{ $metaSEO['description'] or '' }}">
-<meta name="twitter:creator" content="Tedozi Manson - duyphan.developer@gmail.com - 0915428202">
 <!-- Twitter summary card with large image must be at least 280x150px -->
 <meta name="twitter:image:src" content="{{ $metaSEO['image'] or '' }}">
 

@@ -99,7 +99,7 @@ class AuthController extends BaseFrontController
 
         $this->_showFlashMessages();
 
-        return redirect($this->redirectPath());
+        return redirect()->intended('/');
     }
 
     private function _validateRegister($data)
@@ -146,7 +146,7 @@ class AuthController extends BaseFrontController
     {
         $this->_setFlashMessage('You now logged in', 'info');
         $this->_showFlashMessages();
-        return redirect($this->redirectPath());
+        return redirect()->intended('/');
     }
 
     public function getLogout(User $user)
@@ -190,7 +190,7 @@ class AuthController extends BaseFrontController
             return $this->handleUserWasAuthenticated($request, $throttles);
         }
 
-        if ($throttles && !$lockedOut) {
+        if ($throttles & !$lockedOut) {
             $this->incrementLoginAttempts($request);
         }
 

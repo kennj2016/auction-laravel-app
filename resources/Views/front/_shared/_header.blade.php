@@ -23,7 +23,7 @@
 <div class="header-bot">
     <div class="container">
         <div class="col-md-3 header-left">
-            <h1><a href="{{ url('/') }}"><img src="{{ asset('logo.png') }}"></a></h1>
+            <h1><a href="{{ url('/') }}"><img src="{{ $CMSSettings['site_logo'] or asset('logo.png') }}"></a></h1>
         </div>
         <div class="col-md-6 header-middle">
             <form>
@@ -45,10 +45,10 @@
         </div>
         <div class="col-md-3 header-right footer-bottom">
             <ul>
-                <li><a class="fb" href="#"></a></li>
-                <li><a class="twi" href="#"></a></li>
-                <li><a class="insta" href="#"></a></li>
-                <li><a class="you" href="#"></a></li>
+                <li><a class="fb" href="{{ $CMSSettings['facebook'] or '#' }}"></a></li>
+                <li><a class="twi" href="{{ $CMSSettings['twitter'] or '#' }}"></a></li>
+                <li><a class="insta" href="{{ $CMSSettings['instagram'] or '#' }}"></a></li>
+                <li><a class="you" href="{{ $CMSSettings['youtube'] or '#' }}"></a></li>
             </ul>
         </div>
         <div class="clearfix"></div>

@@ -1,4 +1,5 @@
-<?php namespace App\Http\Controllers\Front;
+<?php
+namespace App\Http\Controllers\Front;
 
 use Acme;
 use App\Http\Controllers\BaseController;
